@@ -50,12 +50,17 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  transition: all 0.2s ease-in-out;
 }
+.nav .container ul li a:hover,
 .nav .container ul li a.active {
   font-weight: 700;
   border-bottom: 2px solid #fff;
 }
 /* Hero */
+.hero {
+  padding: 70px 0;
+}
 .hero .container {
   display: flex;
   justify-content: space-between;
@@ -168,4 +173,21 @@ body {
   .nav .container ul li {
     margin: 20px 0;
   }
+}
+
+.copy {
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.copy p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+.copy a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
 }
